@@ -1,0 +1,10 @@
+pandas 
+numpy
+scikit-learn
+pytest
+matplotlib
+dvc
+fastapi
+pydantic
+joblib
+mlflow
