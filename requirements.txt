@@ -8,3 +8,6 @@ fastapi
 pydantic
 joblib
 mlflow
+uvicorn
+python-dotenv
+# dotenv
