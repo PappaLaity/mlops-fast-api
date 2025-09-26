@@ -18,10 +18,10 @@ def train_lr_rf_models():
     rf_model.fit(X, y)
 
     # Save models to disk
-    with open("src/storage/logistic_regression.pkl", "wb") as f:
+    with open("src/storage/models/logistic_regression.pkl", "wb") as f:
         pickle.dump(logreg_model, f)
 
-    with open("src/storage/random_forest.pkl", "wb") as f:
+    with open("src/storage/models/random_forest.pkl", "wb") as f:
         pickle.dump(rf_model, f)
 
 #  Async to train functions
